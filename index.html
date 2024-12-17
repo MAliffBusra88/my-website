@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legasi Bekam Cera - Pesanan Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Logo & Info -->
+    <header>
+        <div class="logo">
+            <img src="legasi-bekam-cera.png.jpeg" alt="Logo Legasi Bekam Cera" width="200px">
+        </div>
+        <h1>Legasi Bekam Cera</h1>
+        <p>Perkhidmatan Urut dan Bekam Profesional</p>
+        <p>Waktu Operasi: Setiap Hari, 9:30 PG - 5:30 PTG</p>
+    </header>
+
+    <!-- Pakej Urutan -->
+    <section id="pakej-urutan">
+        <h2>Pakej Urutan</h2>
+        <ul>
+            <li><strong>Reflexologi:</strong> RM35</li>
+            <li><strong>Urutan Separuh Badan:</strong> RM55</li>
+            <li><strong>Urutan Full Body:</strong> RM90</li>
+        </ul>
+    </section>
+
+    <!-- Pakej Bekam -->
+    <section id="pakej-bekam">
+        <h2>Pakej Bekam</h2>
+        <ul>
+            <li><strong>Bekam Migrain:</strong> RM40</li>
+            <li><strong>Bekam Wajah:</strong> RM55</li>
+            <li><strong>Bekam Mini:</strong> RM65</li>
+            <li><strong>Bekam Standard:</strong> RM120</li>
+        </ul>
+    </section>
+
+    <!-- Pakej Urutan dan Bekam -->
+    <section id="pakej-urutan-bekam">
+        <h2>Pakej Urutan & Bekam</h2>
+        <ul>
+            <li><strong>Urutan 35min + Bekam 11 Cawan:</strong> RM115</li>
+            <li><strong>Urutan 45min + Bekam 15 Cawan:</strong> RM150</li>
+            <li><strong>Urutan 60min + Bekam 23 Cawan:</strong> RM200</li>
+        </ul>
+    </section>
+
+  <!-- Borang Tempahan -->
+<section id="tempahan">
+    <h2>Borang Tempahan Pelanggan</h2>
+    <form id="tempahanForm">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required><br>
+
+        <label for="umur">Umur:</label>
+        <input type="number" id="umur" name="umur" required><br>
+
+        <label for="lokasi">Lokasi:</label>
+        <input type="text" id="lokasi" name="lokasi" required><br>
+
+        <label for="masalah">Masalah Penyakit:</label>
+        <textarea id="masalah" name="masalah" required></textarea><br>
+
+        <label for="pakej">Pilih Pakej:</label>
+        <select id="pakej" name="pakej" required>
+            <option value="reflexologi">Reflexologi - RM35</option>
+            <option value="urutan-separuh">Urutan Separuh Badan - RM55</option>
+            <option value="urutan-full">Urutan Full Body - RM90</option>
+            <option value="bekam-migrain">Bekam Migrain - RM40</option>
+            <option value="bekam-wajah">Bekam Wajah - RM55</option>
+            <option value="bekam-mini">Bekam Mini - RM65</option>
+            <option value="bekam-standard">Bekam Standard - RM120</option>
+            <option value="urutan-bekam-35">Urutan 35min + Bekam 11 Cawan - RM115</option>
+            <option value="urutan-bekam-45">Urutan 45min + Bekam 15 Cawan - RM150</option>
+            <option value="urutan-bekam-60">Urutan 60min + Bekam 23 Cawan - RM200</option>
+        </select><br>
+
+        <!-- Tambahan Medan Tarikh dan Masa -->
+        <label for="tarikh">Tarikh Tempahan:</label>
+        <input type="date" id="tarikh" name="tarikh" required><br>
+
+        <label for="masa">Masa Tempahan:</label>
+        <input type="time" id="masa" name="masa" required><br>
+
+        <!-- Jika mahu gabungan Tarikh dan Masa -->
+        <!-- 
+        <label for="tarikhMasa">Tarikh dan Masa Tempahan:</label>
+        <input type="datetime-local" id="tarikhMasa" name="tarikhMasa" required><br>
+        -->
+
+        <button type="submit">Hantar Tempahan</button>
+    </form>
+</section>
+
+
+    <!-- Maklum Balas Pelanggan -->
+    <section id="feedback">
+        <h2>Maklum Balas Pelanggan</h2>
+        <div id="feedback-list">
+            <div class="feedback-item">
+                <div class="feedback-avatar">
+                    <img src="mokcik.jpeg" alt="Siti Aisyah" width="50px" height="50px">
+                </div>
+                <p><strong>Siti Aisyah</strong> - "Saya sangat berpuas hati dengan perkhidmatan urutan yang diberikan. Ia sangat menyegarkan dan melegakan ketegangan di badan saya. Terima kasih Legasi Bekam Cera!"</p>
+                <div class="stars">
+                    ★★★★☆
+                </div>
+            </div>
+            <div class="feedback-item">
+                <div class="feedback-avatar">
+                    <img src="abg baju puteh.jpeg" alt="Ahmad Razak" width="50px" height="50px">
+                </div>
+                <p><strong>Ahmad Razak</strong> - "Perkhidmatan bekam yang sangat profesional dan berkesan. Saya merasa lebih ringan dan bertenaga selepas sesi bekam. Pasti akan datang lagi!"</p>
+                <div class="stars">
+                    ★★★★★
+                </div>
+            </div>
+            <div class="feedback-item">
+                <div class="feedback-avatar">
+                    <img src="nor-hidayah.jpg" alt="Nor Hidayah" width="50px" height="50px">
+                </div>
+                <p><strong>Nor Hidayah</strong> - "Sangat berpuas hati dengan layanan yang mesra dan profesional. Urutan full body sangat membantu melegakan sakit belakang saya. Highly recommended!"</p>
+                <div class="stars">
+                    ★★★★★
+                </div>
+            </div>
+            <div class="feedback-item">
+                <div class="feedback-avatar">
+                    <img src="rie baju merah.jpeg" alt="Faizal Hakim" width="50px" height="50px">
+                </div>
+                <p><strong>Faizal Hakim</strong> - "Saya ambil pakej bekam migrain, sakit kepala saya hilang selepas sesi di sini. Pakej urutan dan bekam sangat berbaloi. Terima kasih kepada kakitangan yang sangat mesra!"</p>
+                <div class="stars">
+                    ★★★★☆
+                </div>
+            </div>
+            <div class="feedback-item">
+                <div class="feedback-avatar">
+                    <img src="dugong.jpeg" alt="Leila Zainal" width="50px" height="50px">
+                </div>
+                <p><strong>Leila Zainal</strong> - "Saya memilih pakej urutan 60 minit + bekam 23 cawan, dan saya sangat puas hati! Keseluruhan pengalaman sangat menyenangkan dan memberi banyak manfaat."</p>
+                <div class="stars">
+                    ★★★★★
+                </div>
+            </div>
+            <div class="feedback-item">
+                <div class="feedback-avatar">
+                    <img src="rie kening tebal.jpeg" alt="Azman Ismail" width="50px" height="50px">
+                </div>
+                <p><strong>Azman Ismail</strong> - "Rawatan urutan separuh badan yang saya ambil sangat mengurangkan stres. Layanan yang sangat mesra dan tempat yang selesa. Akan datang lagi!"</p>
+                <div class="stars">
+                    ★★★☆☆
+                </div>
+            </div>
+            <div class="feedback-item">
+                <div class="feedback-avatar">
+                    <img src="mokcik purdah.jpeg" alt="Norainah Mohd" width="50px" height="50px">
+                </div>
+                <p><strong>Norainah Mohd</strong> - "Sangat berkesan untuk melegakan migrain saya. Terima kasih Legasi Bekam Cera, saya pasti akan mengesyorkan perkhidmatan ini kepada rakan-rakan."</p>
+                <div class="stars">
+                    ★★★★☆
+                </div>
+            </div>
+            <div class="feedback-item">
+                <div class="feedback-avatar">
+                    <img src="kak tudung biru.jpeg" alt="Salina Rahman" width="50px" height="50px">
+                </div>
+                <p><strong>Salina Rahman</strong> - "Bekam wajah sangat membantu masalah kulit saya. Saya dapat merasakan perubahan selepas beberapa sesi. Pakej yang sangat berbaloi!"</p>
+                <div class="stars">
+                    ★★★★★
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h2>Hubungi Kami</h2>
+        <p>Lokasi: <a href="https://maps.app.goo.gl/vvoutBdFzPyL6p4X6" target="_blank">Cari kami di Google Maps</a></p>
+        <p>Facebook: <a href="https://www.facebook.com/share/1AZ1FgZ9er/" target="_blank">Ikuti Kami di Facebook</a></p>
+        <p>WhatsApp: <a href="https://wa.me/601163679227" target="_blank">Chat dengan kami di WhatsApp</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

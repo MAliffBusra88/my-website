@@ -1,0 +1,213 @@
+/* Reset dasar untuk semua elemen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya untuk keseluruhan badan */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Gaya untuk header */
+header {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+header .logo img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+/* Gaya untuk tajuk pakej */
+h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+/* Gaya untuk seksyen pakej */
+section {
+    margin-bottom: 30px;
+}
+
+/* Gaya untuk senarai pakej */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+/* Gaya untuk borang tempahan */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Gaya untuk gambar urutan dan bekam */
+section img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+/* Gaya umum untuk maklum balas */
+#feedback {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+#feedback h2 {
+    text-align: center;
+    color: #333;
+}
+
+#feedback-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.feedback-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #555;
+}
+
+.feedback-item p {
+    margin: 10px 0;
+    font-style: italic;
+}
+
+.feedback-item strong {
+    font-weight: bold;
+    color: #2c3e50;
+}
+/* Gaya umum untuk maklum balas */
+#feedback {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+#feedback h2 {
+    text-align: center;
+    color: #333;
+}
+
+#feedback-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.feedback-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #555;
+}
+
+.feedback-item p {
+    margin: 10px 0;
+    font-style: italic;
+}
+
+.feedback-item strong {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Gaya untuk bintang */
+.stars {
+    color: #f39c12; /* Warna bintang */
+    font-size: 20px;
+    margin-top: 10px;
+}
+.feedback-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.feedback-avatar {
+    margin-right: 25px;
+}
+
+.feedback-avatar img {
+    border-radius: 50%;
+    width: 70px;
+    height: 65px;
+}
+
+.stars {
+    margin-top: 5px;
+}
+footer {
+    background-color: #f8f8f8;
+    padding: 48px;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 48px;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
